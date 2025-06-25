@@ -1,0 +1,13 @@
+prefix=C:/Data Science Bootcamp/Content/myenv/Library
+exec_prefix=C:/Data Science Bootcamp/Content/myenv/Library
+libdir=C:/Data Science Bootcamp/Content/myenv/Library/lib
+sharedlibdir=C:/Data Science Bootcamp/Content/myenv/Library/lib
+includedir=C:/Data Science Bootcamp/Content/myenv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
