@@ -2,3 +2,6 @@ ipykernel
 pandas
 matplotlib
 openpyxl
+plotly
+nbformat
+dash
